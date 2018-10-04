@@ -23,7 +23,7 @@ class App extends Component {
         client_id: "",
         client_secret: "",
         query: "tacos",
-        near: "Sydney",
+        near: "Phoenix, AZ",
         v: "20181003"
     }
 
@@ -42,8 +42,8 @@ class App extends Component {
 
     // Create map
     const map = new window.google.maps.Map(document.getElementById('map'), {
-      center: {lat: -34.397, lng: 150.644},
-      zoom: 8
+      center: {lat: 33.60, lng: -112.01},
+      zoom: 9
     })
 
     // Create an infowindow
